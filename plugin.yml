@@ -1,0 +1,15 @@
+name: EXPShop
+author: EzMinh
+version: 1.0.0
+api: [3.0.0, 4.0.0]
+main: EzMinh\EXPShop\Main
+
+commands:
+  expshop:
+    description: EXPShop Menu
+    permission: expshop.cmd
+
+permissions:
+  expshop.cmd:
+    description: Allows player to use /expshop
+    default: op    

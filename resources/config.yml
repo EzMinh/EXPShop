@@ -1,0 +1,20 @@
+mainform.title: EXPShop
+buyexp.btn: Buy EXP
+sellexp.btn: Sell EXP
+
+must_number: Must be a number
+enough_money: Don't enough money
+enough_exp: Don't enough EXP
+
+buy_exp_price_per_level: 100
+
+sell_exp_cost_per_level: 50
+
+buy_exp_success: Buy EXP success
+sell_exp_success: Sell EXP success
+
+buy_exp_form_title: Buy EXP
+buy_level_import: Enter the EXP level you want to buy
+
+sell_exp_form_title: Sell EXP
+sell_level_import: Enter the EXP level you want to sell
