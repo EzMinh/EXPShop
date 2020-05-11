@@ -13,5 +13,5 @@
 - FormAPI
 - EconomyAPI
 # License and Copyright
-[LGPL-3.0](https://github.com/EzMinh/EXPShop/blob/master/LICENSE)
+[LGPL-3.0](https://github.com/EzMinh/EXPShop/blob/master/LICENSE) <br/>
 © 2020 EzMinh
