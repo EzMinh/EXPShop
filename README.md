@@ -1,3 +1,6 @@
+[![HitCount](http://hits.dwyl.com/EzMinh/EXPShop.svg)](http://hits.dwyl.com/EzMinh/EXPShop)
+![GitHub All Releases](https://img.shields.io/github/downloads/EzMinh/EXPShop/total)
+[![GitHub license](https://img.shields.io/github/license/EzMinh/EXPShop)](https://github.com/EzMinh/EXPShop/blob/master/LICENSE)
 # EXPShop 1.0.0
 **Buy/Sell EXP**
 # How to use
