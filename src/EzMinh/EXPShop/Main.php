@@ -13,14 +13,9 @@ class Main extends PluginBase
 {
     public function onEnable()
     {
-        $this->getLogger()->info(C::GREEN . "Enabled" . C::YELLOW . " EXPShop");
         @mkdir($this->getDataFolder());
         $this->saveDefaultConfig();
         $this->getResource("config.yml");
-    }
-    public function onDisable()
-    {
-        $this->getLogger()->info(C::RED . "Disabled" . C::YELLOW . " EXPShop");
     }
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool
     {
