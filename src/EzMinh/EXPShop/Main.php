@@ -16,6 +16,15 @@ class Main extends PluginBase
         @mkdir($this->getDataFolder());
         $this->saveDefaultConfig();
         $this->getResource("config.yml");
+        if($this->getServer()->getPluginManager()->getPlugin("FormAPI") == null) {
+            $this->getLogger()->warning(C::RED . "Please download FormAPI!");
+            $this->getServer()->getPluginManager()->disablePlugin($this->getServer()->getPluginManager()->getPlugin("EXPShop"));
+        } else {
+            if($this->getServer()->getPluginManager()->getPlugin("EconomyAPI") == null) {
+                $this->getLogger()->warning(C::RED . "Please download EconomyAPI!");
+                $this->getServer()->getPluginManager()->disablePlugin($this->getServer()->getPluginManager()->getPlugin("EXPShop"));
+            }
+        }
     }
     public function onCommand(CommandSender $sender, Command $cmd, string $label, array $args): bool
     {
