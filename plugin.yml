@@ -1,7 +1,7 @@
 name: EXPShop
 author: EzMinh
-version: 1.0.2
-api: [3.9.0]
+version: 1.0.3
+api: [3.13.0]
 main: EzMinh\EXPShop\Main
 
 commands:
